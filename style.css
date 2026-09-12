@@ -42,3 +42,21 @@ body {
     color: #555555;
     font-size: 15px;
 }
+.perfil__descricao {
+    margin-top: 24px;
+    padding-top: 24px;
+    border-top: 1px solid #e0e0e0;
+    text-align: left;
+}
+
+.perfil__descricao h2 {
+    color: #1a1a2e;
+    font-size: 17px;
+    margin-bottom: 10px;
+}
+
+.perfil__descricao p {
+    color: #555555;
+    font-size: 14px;
+    line-height: 1.6;
+}
