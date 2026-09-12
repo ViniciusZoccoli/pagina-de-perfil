@@ -60,3 +60,9 @@ body {
     font-size: 14px;
     line-height: 1.6;
 }
+.perfil__profissao {
+    color: #1a1a2e;
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 6px;
+}
