@@ -11,6 +11,7 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
+    padding: 20px;
 }
 
 .perfil {
@@ -18,13 +19,50 @@ body {
     padding: 40px;
     border-radius: 8px;
     text-align: center;
+    max-width: 420px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
 
-.perfil h1 {
+.perfil__foto {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #1a1a2e;
+    margin-bottom: 20px;
+}
+
+.perfil__nome {
     color: #1a1a2e;
+    font-size: 24px;
     margin-bottom: 8px;
 }
 
-.perfil p {
+.perfil__cargo {
     color: #555555;
+    font-size: 15px;
+}
+.perfil__descricao {
+    margin-top: 24px;
+    padding-top: 24px;
+    border-top: 1px solid #e0e0e0;
+    text-align: left;
+}
+
+.perfil__descricao h2 {
+    color: #1a1a2e;
+    font-size: 17px;
+    margin-bottom: 10px;
+}
+
+.perfil__descricao p {
+    color: #555555;
+    font-size: 14px;
+    line-height: 1.6;
+}
+.perfil__profissao {
+    color: #1a1a2e;
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 6px;
 }
